@@ -124,28 +124,6 @@ HospitalTech/
 
 ---
 
-## 🌿 Branches e Commits
-
-Trabalhamos com **Git Flow simplificado** — cada tarefa em uma branch separada, tudo vai para `develop` via Pull Request antes de chegar na `main`.
-
-```
-main       ← versão estável (somente via PR aprovado)
-develop    ← integração contínua
-  └── feature/nome-da-tarefa
-```
-
-Padrão de commits:
-
-```
-feat(area): descrição do que foi feito
-fix(leitos): corrige cálculo de ocupação
-docs(lgpd): adiciona política de privacidade
-```
-
-Para o guia completo de branches, commits e Pull Requests consulte o [CONTRIBUTING.md](./CONTRIBUTING.md).
-
----
-
 ## 📌 Status do Projeto
 
 🚧 **Em desenvolvimento**  
