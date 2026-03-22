@@ -1,28 +1,55 @@
+# 🏥 HospitalTech — Sistema de Gestão Hospitalar
 
-# 🏥 Projeto Integrador — Sistema de Gestão Hospitalar
+> Projeto Integrador — Análise e Desenvolvimento de Sistemas  
+> 🚧 Em desenvolvimento · Entrega final: **18/05/2026**
+
+---
 
 ## 📌 Sobre o Projeto
-O **Sistema de Gestão Hospitalar** foi desenvolvido como parte de um **Projeto Integrador**, com o objetivo de aplicar conceitos de tecnologia e gestão para resolver problemas reais enfrentados por hospitais.
 
-O sistema busca melhorar a **eficiência operacional, a análise de dados e a segurança da informação**, garantindo melhor gestão de recursos hospitalares e proteção de dados sensíveis.
-
----
-
-# 👥 Integrantes do Grupo
-
-| Integrante | RA |
-|------------|----|
-| Luan Victor Campos de Souza (Líder)| 3023100074 |
-| Poliana Caroline Lopes de Souza | 3024106175 |
-| Vitor Donzel Pedoti | 3026104445 |
-| Julia Maria | 3024202672 |
-| Natalia Hirae Reis | 3024104897 |
-| Rodrigo A P Souza | 3023103902 |
-| Aline Siqueira Menezes | 3024202001 |
+A **HospitalTech** é uma empresa fictícia do ramo **HealthTech** criada para o Projeto Integrador. O sistema busca melhorar a **eficiência operacional, a análise de dados e a segurança da informação**, garantindo melhor gestão de recursos hospitalares e proteção de dados sensíveis.
 
 ---
 
-# 🏢 Informações da Empresa
+## 🎯 Problema a Ser Resolvido
+
+A HospitalTech busca solucionar gargalos operacionais e vulnerabilidades de segurança em unidades de saúde de alta complexidade.
+
+| Disciplina | Problema resolvido |
+|---|---|
+| 📅 Gerência de Projetos | Cronograma estruturado, gestão de riscos e prazos |
+| 📊 Análise de Dados | Previsão de picos de demanda e superlotação |
+| 🔐 Segurança da Informação | Proteção de prontuários e conformidade com a LGPD |
+| ⚙️ Pesquisa Operacional | Otimização de escalas médicas e ocupação de leitos |
+
+---
+
+## 🚀 Objetivo do Projeto
+
+Desenvolver uma solução que integre **gestão hospitalar, análise de dados e segurança da informação**, contribuindo para:
+
+- Melhor organização de recursos hospitalares
+- Tomada de decisão baseada em dados
+- Proteção de informações sensíveis
+- Planejamento eficiente de projetos em saúde
+
+---
+
+## 👥 Equipe
+
+| Integrante | RA | Área |
+|---|---|---|
+| Luan Victor Campos de Souza (Líder) | 3023100074 | Gerência de Projetos |
+| Poliana Caroline Lopes de Souza | 3024106175 | Análise de Dados |
+| Vitor Donzel Pedoti | 3026104445 | Análise de Dados |
+| Julia Maria | 3024202672 | Gerência de Projetos |
+| Natalia Hirae Reis | 3024104897 | Pesquisa Operacional |
+| Rodrigo A P Souza | 3023103902 | Segurança da Informação |
+| Aline Siqueira Menezes | 3024202001 | Segurança da Informação |
+
+---
+
+## 🏢 Sobre a Empresa
 
 **Nome:** HospitalTech  
 **Ramo de atuação:** Tecnologia da Informação aplicada à Saúde (**HealthTech**)
@@ -31,55 +58,63 @@ A **HospitalTech** é uma empresa fictícia criada para o projeto, focada no des
 
 ---
 
-# 🎯 Problema a Ser Resolvido
-
-A HospitalTech busca solucionar gargalos operacionais e vulnerabilidades de segurança em unidades de saúde de alta complexidade.
-
-### ⚙️ Ineficiência na Alocação de Recursos (Pesquisa Operacional)
-Problemas na organização de **escalas médicas** e **ocupação de leitos**, causando desperdício de recursos e falhas no atendimento aos pacientes.
-
-### 📊 Falta de Previsibilidade (Análise de Dados)
-Gestores possuem dificuldade em **prever picos de demanda e tempo de espera**, o que pode resultar em **superlotação hospitalar**.
-
-### 🔐 Insegurança de Dados Sensíveis (Segurança da Informação)
-Necessidade de proteger **prontuários e dados de pacientes** contra acessos não autorizados, garantindo conformidade com a **LGPD (Lei Geral de Proteção de Dados)**.
-
-### 📅 Gestão de Prazos e Riscos (Gerência de Projetos)
-Reduzir falhas na implementação de novas tecnologias por meio de um **cronograma estruturado**, com entrega final prevista para:
-
-📆 **11 de Maio de 2026**
-
----
-
-# 📁 Estrutura do Repositório
-
-O projeto está organizado de acordo com as disciplinas do curso:
+## 📁 Estrutura do Repositório
 
 ```
-Projeto-Integrador
+HospitalTech/
+├── backend/                  # API e lógica de negócio
+│   ├── app/
+│   │   ├── main.py
+│   │   └── config.py
+│   ├── models/
+│   ├── routes/
+│   ├── services/
+│   ├── tests/
+│   └── requirements.txt
 │
-├── 01_Gerencia_de_Projetos
-├── 02_Analise_de_Dados
-├── 03_Seguranca_da_Informacao
-└── 04_Pesquisa_Operacional
+├── frontend/                 # Interface do usuário
+│   └── src/
+│       ├── components/
+│       ├── pages/
+│       └── assets/
+│
+├── data/                     # Dados e análises
+│   ├── raw/
+│   ├── processed/
+│   ├── notebooks/
+│   └── pipelines/
+│
+├── research/                 # Pesquisa Operacional e modelos
+│   ├── optimization/
+│   ├── kpis/
+│   ├── forecasting/
+│   └── reports/
+│
+├── security/                 # Segurança e conformidade LGPD
+│   ├── policies/
+│   ├── pentest/
+│   ├── encryption/
+│   └── audit_logs/
+│
+├── docs/                     # Documentação
+│   ├── architecture/
+│   ├── api/
+│   ├── user_manual/
+│   └── meeting_notes/
+│
+├── infra/                    # Docker e CI/CD
+├── tests/                    # Testes (unit, integration, e2e)
+├── scripts/                  # Scripts utilitários
+├── .github/workflows/        # GitHub Actions
+├── .env.example
+├── docker-compose.yml
+├── CONTRIBUTING.md
+└── README.md
 ```
 
-Cada pasta contém os materiais, atividades e documentos relacionados à respectiva disciplina.
-
 ---
 
-# 🚀 Objetivo do Projeto
-
-Desenvolver uma solução que integre **gestão hospitalar, análise de dados e segurança da informação**, contribuindo para:
-
-- Melhor organização de recursos hospitalares  
-- Tomada de decisão baseada em dados  
-- Proteção de informações sensíveis  
-- Planejamento eficiente de projetos em saúde  
-
----
-
-# 📚 Tecnologias e Conceitos Aplicados
+## 📚 Tecnologias e Conceitos Aplicados
 
 - Gestão de Projetos
 - Análise de Dados
@@ -89,8 +124,33 @@ Desenvolver uma solução que integre **gestão hospitalar, análise de dados e 
 
 ---
 
-# 📌 Status do Projeto
+## 🌿 Branches e Commits
 
-🚧 **Em desenvolvimento**
+Trabalhamos com **Git Flow simplificado** — cada tarefa em uma branch separada, tudo vai para `develop` via Pull Request antes de chegar na `main`.
 
-Entrega final prevista para **18/05/2026**.
+```
+main       ← versão estável (somente via PR aprovado)
+develop    ← integração contínua
+  └── feature/nome-da-tarefa
+```
+
+Padrão de commits:
+
+```
+feat(area): descrição do que foi feito
+fix(leitos): corrige cálculo de ocupação
+docs(lgpd): adiciona política de privacidade
+```
+
+Para o guia completo de branches, commits e Pull Requests consulte o [CONTRIBUTING.md](./CONTRIBUTING.md).
+
+---
+
+## 📌 Status do Projeto
+
+🚧 **Em desenvolvimento**  
+Entrega final prevista para **18/05/2026**
+
+---
+
+*HospitalTech © 2025 — Projeto acadêmico de uso interno*
