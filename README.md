@@ -72,12 +72,6 @@ HospitalTech/
 │   ├── tests/
 │   └── requirements.txt
 │
-├── frontend/                 # Interface do usuário
-│   └── src/
-│       ├── components/
-│       ├── pages/
-│       └── assets/
-│
 ├── data/                     # Dados e análises
 │   ├── raw/
 │   ├── processed/
@@ -97,10 +91,10 @@ HospitalTech/
 │   └── audit_logs/
 │
 ├── docs/                     # Documentação
-│   ├── architecture/
-│   ├── api/
-│   ├── user_manual/
-│   └── meeting_notes/
+│   ├── analise_de_dados/
+│   ├── gestao_de_projetos/
+│   ├── pesquisa_operacional/
+│   └── seguranca/
 │
 ├── infra/                    # Docker e CI/CD
 ├── tests/                    # Testes (unit, integration, e2e)
