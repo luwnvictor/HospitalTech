@@ -62,15 +62,6 @@ A **HospitalTech** é uma empresa fictícia criada para o projeto, focada no des
 
 ```
 HospitalTech/
-├── backend/                  # API e lógica de negócio
-│   ├── app/
-│   │   ├── main.py
-│   │   └── config.py
-│   ├── models/
-│   ├── routes/
-│   ├── services/
-│   ├── tests/
-│   └── requirements.txt
 │
 ├── data/                     # Dados e análises
 │   ├── raw/
