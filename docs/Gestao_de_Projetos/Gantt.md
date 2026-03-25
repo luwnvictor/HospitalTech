@@ -14,6 +14,4 @@ Você pode visualizar o gráfico de Gantt completo no link abaixo:
 
 👉 [Clique aqui para acessar o Cronograma](https://sharing.clickup.com/90171062355/g/h/2kz9ue2k-617/cc8a7cae835a30e)
 
-## 🗂 Organização
-Este repositório tem como objetivo centralizar o acesso ao cronograma, facilitando o acompanhamento e a gestão do projeto.
 
