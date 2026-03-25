@@ -15,7 +15,6 @@ Você pode visualizar o documento completo através do link abaixo:
 
 👉 [Clique aqui para acessar o TAP](https://docs.google.com/document/d/14fX6Z_gJdUWIJNqBB8hKhXRoq5LP_Tin6GMo12ED6Ac/edit?tab=t.0)
 
-## 🗂 Organização
-Este repositório serve apenas como ponto central para facilitar o acesso ao documento do projeto.
+
 
 
