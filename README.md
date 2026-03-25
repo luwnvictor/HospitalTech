@@ -1,7 +1,6 @@
 # 🏥 HospitalTech — Sistema de Gestão Hospitalar
 
 > Projeto Integrador — Análise e Desenvolvimento de Sistemas  
-> 🚧 Em desenvolvimento · Entrega final: **18/05/2026**
 
 ---
 
