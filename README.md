@@ -62,37 +62,14 @@ A **HospitalTech** é uma empresa fictícia criada para o projeto, focada no des
 ```
 HospitalTech/
 │
-├── data/                     # Dados e análises
-│   ├── raw/
-│   ├── processed/
-│   ├── notebooks/
-│   └── pipelines/
+├── analise_de_dados/                # Dados e análises
 │
-├── research/                 # Pesquisa Operacional e modelos
-│   ├── optimization/
-│   ├── kpis/
-│   ├── forecasting/
-│   └── reports/
+├── pesquisa_operacional/            # Pesquisa Operacional e modelos
 │
-├── security/                 # Segurança e conformidade LGPD
-│   ├── policies/
-│   ├── pentest/
-│   ├── encryption/
-│   └── audit_logs/
+├── seguranca/                       # Segurança e conformidade LGPD
 │
-├── docs/                     # Documentação
-│   ├── analise_de_dados/
-│   ├── gestao_de_projetos/
-│   ├── pesquisa_operacional/
-│   └── seguranca/
-│
-├── infra/                    # Docker e CI/CD
-├── tests/                    # Testes (unit, integration, e2e)
-├── scripts/                  # Scripts utilitários
-├── .github/workflows/        # GitHub Actions
-├── .env.example
-├── docker-compose.yml
-├── CONTRIBUTING.md
+├── gestao_de_projetos/              # Documentação
+│  
 └── README.md
 ```
 
