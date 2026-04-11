@@ -69,7 +69,8 @@ HospitalTech/
 ├── seguranca/                       # Segurança e conformidade LGPD
 │
 ├── gestao_de_projetos/              # Documentação
-│  
+         └── docs/
+
 └── README.md
 ```
 
