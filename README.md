@@ -1,7 +1,6 @@
 # 🏥 HospitalTech — Sistema de Gestão Hospitalar
 
 > Projeto Integrador — Análise e Desenvolvimento de Sistemas  
-> 🚧 Em desenvolvimento · Entrega final: **18/05/2026**
 
 ---
 
@@ -62,53 +61,16 @@ A **HospitalTech** é uma empresa fictícia criada para o projeto, focada no des
 
 ```
 HospitalTech/
-├── backend/                  # API e lógica de negócio
-│   ├── app/
-│   │   ├── main.py
-│   │   └── config.py
-│   ├── models/
-│   ├── routes/
-│   ├── services/
-│   ├── tests/
-│   └── requirements.txt
 │
-├── frontend/                 # Interface do usuário
-│   └── src/
-│       ├── components/
-│       ├── pages/
-│       └── assets/
+├── analise_de_dados/                # Dados e análises
 │
-├── data/                     # Dados e análises
-│   ├── raw/
-│   ├── processed/
-│   ├── notebooks/
-│   └── pipelines/
+├── pesquisa_operacional/            # Pesquisa Operacional e modelos
 │
-├── research/                 # Pesquisa Operacional e modelos
-│   ├── optimization/
-│   ├── kpis/
-│   ├── forecasting/
-│   └── reports/
+├── seguranca/                       # Segurança e conformidade LGPD
 │
-├── security/                 # Segurança e conformidade LGPD
-│   ├── policies/
-│   ├── pentest/
-│   ├── encryption/
-│   └── audit_logs/
-│
-├── docs/                     # Documentação
-│   ├── architecture/
-│   ├── api/
-│   ├── user_manual/
-│   └── meeting_notes/
-│
-├── infra/                    # Docker e CI/CD
-├── tests/                    # Testes (unit, integration, e2e)
-├── scripts/                  # Scripts utilitários
-├── .github/workflows/        # GitHub Actions
-├── .env.example
-├── docker-compose.yml
-├── CONTRIBUTING.md
+├── gestao_de_projetos/              # Documentação
+         └── docs/
+
 └── README.md
 ```
 
